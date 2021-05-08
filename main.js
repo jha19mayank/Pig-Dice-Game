@@ -27,8 +27,8 @@ function p1Roll() {
 
     document.getElementById("p1-roll").disabled = true;
     document.getElementById("p1-hold").disabled = true;
-    document.getElementById("p1-roll").disabled = false;
-    document.getElementById("p1-hold").disabled = false;
+    document.getElementById("p2-roll").disabled = false;
+    document.getElementById("p2-hold").disabled = false;
   }
 }
 
