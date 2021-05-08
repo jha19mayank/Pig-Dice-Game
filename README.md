@@ -4,7 +4,7 @@ It is a  two player game in which one has to roll the dice and his/her points wi
 This is same for other player also...In this 100 points has been marked as the highest that is whoever will score 100 points first will be declared winner..
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<------------------------------------------------RULES OF THE GAME-------------------------------------------------------------------->
+<------------------------------------------------RULES OF THE GAME---------------------------------------------------------------------------------->
           -The game has 2 players, playing in rounds.
           
           - In each turn, a player rolls a dice as many times as he whishes. Each
