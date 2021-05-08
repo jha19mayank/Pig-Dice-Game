@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(247, 235, 128);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21 154 300);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.rules {
+  background-color: rgb(220, 139, 255);
+  padding-left: 2px;
+}
+
+.player-area {
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 50px;
+}
+
+#p1-header,
+#p2-header {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding: 40px;
+  justify-content: center;
+}
