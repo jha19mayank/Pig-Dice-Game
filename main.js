@@ -33,4 +33,11 @@ function p1Roll() {
   }
 }
 
+function p1hold() {
+  banda1.totalSco += banda1.turnSco;
+  document.getElementById("p1-total-score").innerHTML = banda1.turnSco;
+
+  banda1.turnSco = 0;
+  document.getElementById("p1-current-score").innerHTML = banda1.turnSco;
+}
 // For Player 2------------------------------------------------------------------
