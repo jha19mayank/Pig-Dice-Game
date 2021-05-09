@@ -1,6 +1,6 @@
 //  For Player 1----------------------------------------------------------
 
-let banda1 = {
+var banda1 = {
   turnSco: 0,
   totalSco: 0,
 };
@@ -8,6 +8,7 @@ let banda1 = {
 // wired dice to roll and give different number
 
 document.getElementById("p1-roll").addEventListener("click", p1Roll);
+document.getElementById("p1-hold").addEventListener("click", p1hold);
 
 function p1Roll() {
   var rollNum = Math.floor(Math.random() * 6) + 1;
