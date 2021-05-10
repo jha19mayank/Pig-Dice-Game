@@ -15,6 +15,13 @@ body {
   padding-left: 2px;
 }
 
+.btn {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  border-radius: 18px;
+}
+
 .player-area {
   border: 1px solid grey;
   border-radius: 10px;
@@ -36,7 +43,7 @@ body {
 
 .footer {
   display: flex;
-  background-color: black;
+  background-color: #ea2e2e;
   color: white;
   font-size: larger;
   padding: 40px;
