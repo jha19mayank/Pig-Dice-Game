@@ -16,21 +16,22 @@
       <p>-The game has 2 players, playing in rounds.</p>
       <p>
         - In each turn, a player rolls a dice as many times as he whishes. Each
-        result get added to his ROUND score
+        result get added to his CURRENT score
       </p>
       <p>
-        - BUT, if the player rolls a 1, all his ROUND score gets lost. After
+        - BUT, if the player rolls a 1, all his CURRENT score gets lost. After
         that, it's the next player's turn
       </p>
       <p>
-        - The player can choose to 'Hold', which means that his ROUND score gets
-        added to his GLOBAL score. After that, it's the next player's turn
+        - The player can choose to 'Hold', which means that his CURRENT score gets
+        added to his TOTAL score. After that, it's the next player's turn
       </p>
       <p>
-        - The first player to reach 100 points on GLOBAL score wins the game.
+        - The first player to reach 100 points on TOTAL score wins the game.
       </p>
     </div>
 
+    <button class="btn">New game</button>
     <!-- players area -->
     <div class="players-row">
       <!-- player 1 -->
@@ -60,7 +61,7 @@
           <p><img id="p2-roll-img" src="./dice/dice-2.png" /></p>
           <p>
             <p>Current score-<span id="p2-current score">0</span></p>
-            <button id="p2-roll">Roll</button><button id="p2-hold">Hold</button>
+            <button id="p2-roll">Roll</button> <button id="p2-hold">Hold</button>
           </p>
         </div>
       </div>
