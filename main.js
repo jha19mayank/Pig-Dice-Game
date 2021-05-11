@@ -105,3 +105,9 @@ function switchturn2() {
   document.getElementById("p1-roll").disabled = false;
   document.getElementById("p1-hold").disabled = false;
 }
+
+document.getElementById("btn").addEventListener("click", newGame);
+
+function newGame() {
+  document.location.reload();
+}
