@@ -10,6 +10,9 @@ var banda2 = {
   totalSco: 0,
 };
 
+document.getElementById("p2-roll").disabled = true;
+document.getElementById("p2-hold").disabled = true;
+
 // wired dice to roll and also to hold give different number
 document.getElementById("p1-roll").addEventListener("click", p1Roll);
 document.getElementById("p1-hold").addEventListener("click", p1hold);
