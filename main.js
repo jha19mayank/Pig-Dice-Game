@@ -36,7 +36,7 @@ function p1Roll() {
 function p1hold() {
   // adding current score to the total score
   banda1.totalSco += banda1.turnSco;
-  document.getElementById("p1-total-score").innerHTML = banda1.turnSco;
+  document.getElementById("p1-total-score").innerHTML = banda1.totalSco;
 
   if (banda1.totalSco >= 100) {
     alert("Hey!  Player-1 wins!!!🥳");
@@ -82,7 +82,7 @@ function p2Roll() {
 function p2hold() {
   // adding current score to the total score
   banda2.totalSco += banda2.turnSco;
-  document.getElementById("p2-total-score").innerHTML = banda2.turnSco;
+  document.getElementById("p2-total-score").innerHTML = banda2.totalSco;
 
   if (banda2.totalSco >= 100) {
     alert("Hey!  Player-2 wins!!!🥳");
